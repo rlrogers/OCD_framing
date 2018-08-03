@@ -6,7 +6,7 @@ def spacing_frames():
         input(
             "In inches, what is the width of the wall which will house your frames?"
         ))
-    calculations = (width_of_works - width_of_wall) / (works + 1) * -1
+    calculations = (width_of_wall - width_of_works) / (works + 1)
     rounded_calc = round(calculations, 2)
 
     print(
